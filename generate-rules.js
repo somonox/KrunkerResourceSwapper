@@ -7,7 +7,10 @@ const ignoreList = new Set([
   'README.md',
   'LICENSE',
   '.git',
-  'generate-rules.js'
+  'generate-rules.js',
+  '_metadata',
+  'rules.json',
+  '.gitkeep'
 ]);
 
 const basePath = __dirname;
