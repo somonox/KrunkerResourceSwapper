@@ -21,16 +21,20 @@ Then, open the Chrome extensions page (`chrome://extensions`), enable **Develope
 Your mod should follow this folder structure:
 
 ```
-mod/
+KrunkerResourceSwapper/
 ├── css/
 ├── models/
 ├── scares/
 ├── sounds/
 ├── textures/
+├── generate-rules.js
+├── manifest.json
+├── README.md
+├── init.js
 └── rules.json
 ```
 
-* All folders are optional except for `rules.json`.
+* All files and folders are optional except for `rules.json`.
 * If you do not have a `rules.json` file, refer to [Section 3](#3-how-to-generate-rulesjson).
 
 Copy your `mod` folder's contents into the `KrunkerResourceSwapper` directory.
@@ -58,7 +62,7 @@ The script will automatically generate a `rules.json` file.
 When developing a mod, it's recommended to maintain the following structure:
 
 ```
-mod/
+KrunkerResourceSwapper/
 ├── css/
 ├── models/
 ├── scares/
