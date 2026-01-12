@@ -5,7 +5,9 @@
 	"description": "https://github.com/a7a7-7",
 	"permissions": [
 		"declarativeNetRequest",
-		"declarativeNetRequestWithHostAccess"
+		"declarativeNetRequestWithHostAccess",
+		"declarativeNetRequestFeedback",
+		"webRequest"
 	],
 	"host_permissions": [
 		"*://*.krunker.io/*",
